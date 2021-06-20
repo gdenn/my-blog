@@ -22,7 +22,7 @@
     {% include js/cookie_consent_common.js %}
 
     if(readCookie('cookie-notice-dismissed') == 'true') {
-        console.log("cookie was there");
+        // cookie active
     } else {
         document.getElementById('cookie-notice').style.display = 'block';
     }
