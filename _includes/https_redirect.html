@@ -1,9 +1,6 @@
 <script>
-var host = "{{ site.hostname }}"
-
-console.log("host: ", host)
-if (window.location.host == host && window.location.protocol != "https:") {
-    console.log("redirect to https")
+var isLocalhost = window.location.host.includes("localhost");
+if (!isLocalhost && window.location.protocol != "https:") {
     window.location.protocol = "https:"
 }
 </script>
