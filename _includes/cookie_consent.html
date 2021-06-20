@@ -6,8 +6,18 @@
         #cookie-notice a {position: relative; bottom: 4px;}
     }
 </style>
-<div id="cookie-notice"><span>We would like to use third party cookies and scripts to improve the functionality of this website.</span><a id="cookie-notice-accept" class="btn btn-primary btn-sm">Approve</a><a href="/privacy" class="btn btn-primary btn-sm">More info</a></div>
+<div id="cookie-notice">
+    <span>We would like to use third party cookies and scripts to improve the functionality of this website.</span>
+    </br>
+    <a id="cookie-notice-accept" class="btn btn-primary btn-sm">Approve</a>
+    <a href="{{ site.baseurl }}/gdpr" class="btn btn-primary btn-sm">More info</a>
+    <a onclick="closeDialog()" class="btn btn-primary btn-sm">Close</a>
+</div>
 <script>
+
+    function closeDialog() {
+        document.getElementById("cookie-notice").style.display="none";
+    }
 
     {% include js/cookie_consent_common.js %}
 
