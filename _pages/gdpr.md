@@ -34,7 +34,7 @@ This site uses a few Cookies to enable third party plugins.
 
 The following cookies get set when you approve the cookie consent dialog.
 
-* `_ga` and `_ga_XXXXXX` (string) - provides the google analytics plugin with the tracking tracking id of this blog.
+* `_ga` and `_ga_XXXXXX` (string) - provides the google analytics plugin with the tracking id of this blog.
 
 * `cookie-notice-dismissed` (boolean) - gets set to `true` when the user accepted the cookie consent dialog. (we don't set this cookie if you don't confirm the cookie consent).
 

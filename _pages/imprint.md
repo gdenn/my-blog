@@ -8,4 +8,4 @@ Dennis Groß\
 Gothestr. 75, 66287 Quierschied\
 Saarland, Germany
 
-contact me: gdennis91@googlemail.com
+contact me: dennis.gross@betteratpython.com
