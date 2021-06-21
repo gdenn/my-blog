@@ -1,0 +1,16 @@
+<div id="hyvor-talk-view"></div>
+<script type="text/javascript">
+
+    {% include js/cookie_consent_common.js %}
+
+    if(readCookie('cookie-notice-dismissed') == 'true') {
+
+        var HYVOR_TALK_WEBSITE = {{ site.hyvor_id }};
+        var HYVOR_TALK_CONFIG = {
+            url: false,
+            id: '{{page.id}}'
+        };
+    
+    }
+</script>
+<script async type="text/javascript" src="//talk.hyvor.com/web-api/embed"></script>

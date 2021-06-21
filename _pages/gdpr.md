@@ -60,3 +60,11 @@ You can read more about cross-platform tracking [here](https://support.google.co
 Your tracking information has a **retention** time of **two months**.
 
 Please contact me under dennis.gross@betteratpython.com if you wish a manual deletion of your tracking data.
+
+### Hyvor Talk
+
+Our comment section under the blog posts use "Hyvor Talk".
+
+The software uses your IPv4 address to prevent spam in the comment section.
+
+You can find out more about the Hyvor Talk privacy policy [here](https://talk.hyvor.com/docs/privacy)
