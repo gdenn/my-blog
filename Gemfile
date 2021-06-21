@@ -8,3 +8,4 @@ ruby '~> 2.7.0'
 
 gem 'github-pages'
 gem 'pathutil'
+gem 'jekyll-sitemap'
