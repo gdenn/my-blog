@@ -22,7 +22,7 @@ author_avatar: /images/profile.jpeg
 # Flags below are optional
 #
 
-tagline: "Your source of beginner and advanced Python tutorials."
+tagline: "Your source of beginner and advanced Python tutorials"
 
 # Includes an icon in the footer for each username you enter
 footer-links:
@@ -54,7 +54,7 @@ google_analytics_ga4: G-Z6BC8NCY2T
 
 # Your website URL (e.g. http://amitmerchant1990.github.io or http://www.amitmerchant.com)
 # Used for Sitemap.xml and your RSS feed
-url: http://www.betteratpython.com
+url: https://www.betteratpython.com
 enforce_ssl: https://www.betteratpython.com
 
 # If you're hosting your site at a Project repository on GitHub pages
