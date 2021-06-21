@@ -64,6 +64,7 @@ Please contact me under dennis.gross@betteratpython.com if you wish a manual del
 ### Hyvor Talk
 
 Our comment section under the blog posts use "Hyvor Talk".
+We activate Hyvor Talk only if you **accept** the cookie consent banner. 
 
 The software uses your IPv4 address to prevent spam in the comment section.
 
