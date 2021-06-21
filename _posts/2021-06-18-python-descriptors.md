@@ -1,9 +1,10 @@
 ---
 layout: post
-title: Why should you use the Python Descriptor Protocol?
+title: "Why should you use the Python Descriptor Protocol?"
 permalink: python-descriptors
+-categories:
 - Advanced Python
-excerpt: Find out what makes the descriptor protocol such a great addition to Python's data model and how you can apply it in your code
+excerpt: "Find out what makes the descriptor protocol such a great addition to Python's data model and how you can apply it in your code"
 
 ---
 
