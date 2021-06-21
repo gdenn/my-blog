@@ -22,6 +22,8 @@ author_avatar: /images/profile.jpeg
 # Flags below are optional
 #
 
+tagline: "Your source of beginner and advanced Python tutorials."
+
 # Includes an icon in the footer for each username you enter
 footer-links:
   dribbble:
@@ -92,7 +94,6 @@ plugins:
   - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
   - jekyll-seo-tag
   - jekyll-paginate
-  - jekyll-sitemap
 
 include: ['_pages']
 
