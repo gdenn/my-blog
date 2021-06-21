@@ -4,7 +4,7 @@
     <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
     {% seo title=false %}
     {% include meta.html %}
-    {% include analytics_head.html %}    
+    {% include analytics.html %}    
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/style.css" />
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
     <link rel="canonical" href="{{ site.url }}{{ page.url }}" />
@@ -54,7 +54,6 @@
       </div>
     </div>
     {% include cookie_consent.html %}
-    {% include analytics.html %}
     {% include https_redirect.html %}
   </body>
 </html>
