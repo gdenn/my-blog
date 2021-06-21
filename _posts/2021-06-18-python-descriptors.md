@@ -2,10 +2,8 @@
 layout: post
 title: Why should you use the Python Descriptor Protocol?
 permalink: python-descriptors
-descriptors: Find out why the Python Descriptor Protocol is a must have in the tool bag of every serious Python programmer. 
-categories: 
 - Advanced Python
-excerpt: The python descriptor protocol offers a neat, yet powerful way to handle the access of class and instance attributes. Learn more about the Python data model and how to apply the descriptor protocol.
+excerpt: Find out what makes the descriptor protocol such a great addition to Python's data model and how you can apply it in your code
 
 ---
 
