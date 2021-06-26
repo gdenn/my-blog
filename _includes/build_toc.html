@@ -1,0 +1,34 @@
+<script>
+    $(document).ready(function(){
+
+        $("#toc-list").empty();
+
+        var index = 0;
+        function createListItem(heading, tocList) {
+
+            const headingText = heading.text();
+
+            console.log("headingTest: ", headingText);
+
+            const markerName = `marker${index}`
+            index = index + 1;
+
+            const anchor = `<a name="${markerName}" />`;
+            heading.before(anchor);
+
+            const listItem = `<li><a href="#${markerName}">${headingText}</a></li>`;
+            tocList.append(listItem);
+        }
+
+        $(".entry").find("h2").each(function() {
+
+            createListItem($(this), $("#toc-list"));
+
+            $(this).nextUntil("h2").siblings("h3").each(function() {
+                console.log("foo");
+                createListItem($(this), $("#toc-list").find("li").last());
+            });
+        });
+    });
+    
+</script>
